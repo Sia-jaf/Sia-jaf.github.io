@@ -1,5 +1,101 @@
 /* latin-ext */
 @font-face {
+    font-family: 'Baskerville Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Normal'), url('baskvl.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Regular'), url('baskervi.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville Light-Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Light-Italic'), url('BASKE10.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Light'), url('BASKE9.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville LightA';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville LightA'), url('BASKRV_L.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Bold'), url('BASKE1.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Bold'), url('Baskerville Bold font.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville BT Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Roman'), url('BaskervilleBT.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville BT Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Italic'), url('BaskervilleItalicBT.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville BT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Bold'), url('BaskervilleBoldBT.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville BT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Bold'), url('baskerville bold bt.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Baskerville BT Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Bold Italic'), url('BaskervilleBoldItalicBT.woff') format('woff');
+    }
+
+\* The following is the original font choice from the template.
+@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
@@ -30,3 +126,5 @@
   src: local('Work Sans'), local('WorkSans-Regular'), url(fonts/ElUAY9q6T0Ayx4zWzW63VFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
+*/
