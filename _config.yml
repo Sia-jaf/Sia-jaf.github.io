@@ -1,10 +1,10 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Siavash Jafarizadeh
+description: Personal webpage.
 
 baseurl: #name of GitHub repository. But left empty to deploy as a website.
-url: "https://Sia-jaf.github.io" #custom url to be used instead of GitHub repository
+url: https://Sia-jaf.github.io #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
