@@ -1,11 +1,11 @@
 ### your site title here
 
 title: Siavash Jafarizadeh
-description: Personal webpage.
+description: #Left empty to make the title less spacious.
 
 baseurl: #name of GitHub repository. But left empty to deploy as a website.
 url: https://Sia-jaf.github.io #custom url to be used instead of GitHub repository
-email: #
+email: siavashj@uoregon.edu
 
 # Pagination
 paginate: 4
