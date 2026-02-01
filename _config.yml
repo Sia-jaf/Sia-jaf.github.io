@@ -13,15 +13,16 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+linkedin: "https://www.linkedin.com/in/siavash-jafarizadeh-2219b9356/"
+github: "https://github.com/Sia-jaf"
+google: "#"
+# stackoverflow: "#"
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+# instagram: "#"
+# facebook: "#"
+# bluesky: "#"
 
 # Markdown
 highlighter: rouge
