@@ -3,9 +3,13 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: profile.png
+  image: profile_Feb25.JPG
 published: true
 ---
+I am a mathematician interested in data science and applications of abstract math in real world problems. I recieved my phd from university of Oregon in July 2025. I specialize in low dimensional topology, which means I worked with knots and links and modern tools to study such subjects. 
+## Here is a test
+and more test
+<!-- Comments 
 
 [Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
 
@@ -19,3 +23,4 @@ PS: If you liked the theme, do star it on GitHub!
 
 - [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
 - [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+-->
