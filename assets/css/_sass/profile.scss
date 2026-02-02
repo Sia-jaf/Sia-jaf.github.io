@@ -5,7 +5,6 @@
 }
 .profile-container .profile {
     display: block;
-    margin: 0 auto;
     border-style: solid;
     border-color: $light-gray;
     margin-left: 1rem;
@@ -21,6 +20,7 @@
   justify-content: center;
   align-items: center;
 }
+
 /* Older version of profile 
     
 .profile {
