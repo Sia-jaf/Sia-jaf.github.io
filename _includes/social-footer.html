@@ -9,6 +9,15 @@ href="mailto:{{ site.email | encode_email }}" target="_blank">
 {%- endif -%}
 
 {%- if site.linkedin -%}
+<a title="{{ _locale_string_follow | replace: '[NAME]', 'google' }}"
+class="social-button linkedin"
+href="https://scholar.google.com/{{ site.linkedin }}" itemprop="sameAs"
+target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+{%- endif -%}
+
+{%- if site.linkedin -%}
 <a title="{{ _locale_string_follow | replace: '[NAME]', 'LinkedIn' }}"
 class="social-button linkedin"
 href="https://www.linkedin.com/in/{{ site.linkedin }}" itemprop="sameAs"
