@@ -4,12 +4,8 @@ layout: default
 
 {% if page.profile %}
     {% if page.profile.image %}
-      <div class="profile-container">
       <img class="profile {{ page.profile.align }}"  width="33.33%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
-      <div class="social-icons">
-          {% include social-footer.html %}
-      </div>
-      </div>    
+        <figcaption> {% include social-footer.html %} </figcaption>
     {% endif %}
 {% endif %}
 
