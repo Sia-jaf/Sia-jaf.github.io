@@ -31,6 +31,7 @@
 }
 
 .rounded-social-buttons,
+.fa-google,
 .fa-facebook-f,
 .fa-linkedin,
 .fa-github,
@@ -53,6 +54,17 @@
   background: #fefefe;
   border-color: #3b5998;
 }
+
+.rounded-social-buttons .social-button.google {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.google:hover, .rounded-social-buttons .social-button.google:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
 
 .rounded-social-buttons .social-button.linkedin {
   background: #007bb5;

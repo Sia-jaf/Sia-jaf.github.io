@@ -13,9 +13,9 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "https://www.linkedin.com/in/siavash-jafarizadeh-2219b9356/"
-github: "https://github.com/Sia-jaf"
-google: "#"
+linkedin: "siavash-jafarizadeh-2219b9356/"
+github: "Sia-jaf"
+google: "citations?user=AQM3gKwAAAAJ&hl=en"
 # stackoverflow: "#"
 # researchgate: "#"
 # orcid: "#"
