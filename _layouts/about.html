@@ -6,7 +6,7 @@ layout: default
     {% if page.profile.image %}
             <div class="profile-container">
                 <div>
-                <img class="profile {{ page.profile.align }}"  width="33.33%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
+                <img class="profile {{ page.profile.align }}"  width="100%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
                 </div>
                 <div class="rounded-social-buttons" style="float: left;">        
                     {%- if site.email -%}
@@ -53,7 +53,7 @@ layout: default
                     </a>
                     {%- endif -%}
                 </div>
-            <div>
+            </div>
     {% endif %}
 {% endif %}
 
