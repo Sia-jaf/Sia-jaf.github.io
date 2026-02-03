@@ -5,9 +5,10 @@ layout: default
 {% if page.profile %}
     {% if page.profile.image %}
             <div class="profile-container">
-                <div>
+                <div width="33%">
                 <img class="profile {{ page.profile.align }}"  width="100%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
                 </div>
+                <br>
                 <div class="rounded-social-buttons" style="float: left;">        
                     {%- if site.email -%}
                     <a title="{{ _locale_string_email }}"
