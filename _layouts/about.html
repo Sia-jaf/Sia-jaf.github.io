@@ -4,11 +4,12 @@ layout: default
 
 {% if page.profile %}
     {% if page.profile.image %}
-            <p>
+            <div class="profile-container">
+                <div>
                 <img class="profile {{ page.profile.align }}"  width="33.33%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
-                <br>
                 <div class="rounded-social-buttons">
-
+                </div>
+                <div style="float: left;">        
                     {%- if site.email -%}
                     <a title="{{ _locale_string_email }}"
                         class="social-button email" itemprop="email" 
@@ -17,12 +18,12 @@ layout: default
                     </a>
                     {%- endif -%}
 
-                    {%- if site.google -%}
+                    {%- if site.google-scholar -%}
                     <a title="{{ _locale_string_follow | replace: '[NAME]', 'google' }}"
-                    class="social-button linkedin"
+                    class="social-button google-scholar"
                     href="https://scholar.google.com/{{ site.linkedin }}" itemprop="sameAs"
                     target="_blank">
-                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-google-scholar"></i>
                     </a>
                     {%- endif -%}
 
@@ -53,7 +54,7 @@ layout: default
                     </a>
                     {%- endif -%}
                 </div>
-            </p>
+            <div>
     {% endif %}
 {% endif %}
 

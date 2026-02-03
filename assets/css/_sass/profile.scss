@@ -23,7 +23,12 @@
   align-items: center;
 }
 */
-    
+.profile-container {
+  display: grid;
+  width: 33.33%;
+  grid-template-rows: 70% 20%;
+}
+
 .profile {
     border-style: solid;
     border-color: $light-gray;
