@@ -31,7 +31,7 @@
 }
 
 .rounded-social-buttons,
-.fa-google,
+.fa-google-scholar,
 .fa-facebook-f,
 .fa-linkedin,
 .fa-github,
@@ -55,16 +55,17 @@
   border-color: #3b5998;
 }
 
-.rounded-social-buttons .social-button.google {
-  background: #007bb5;
-}
+/* <i class="fa-brands fa-google-scholar" style="color: #74C0FC;"></i> */
 
-.rounded-social-buttons .social-button.google:hover, .rounded-social-buttons .social-button.google:focus {
-  color: #007bb5;
+.rounded-social-buttons .social-button.google-scholar {
   background: #fefefe;
-  border-color: #007bb5;
 }
 
+.rounded-social-buttons .social-button.google-scolar:hover, .rounded-social-buttons .social-button.google-scholar:focus {
+  color: #74C0FC;
+  background: #fefefe;
+  border-color: #74C0FC;
+}
 
 .rounded-social-buttons .social-button.linkedin {
   background: #007bb5;
