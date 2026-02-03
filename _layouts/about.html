@@ -7,9 +7,8 @@ layout: default
             <div class="profile-container">
                 <div>
                 <img class="profile {{ page.profile.align }}"  width="33.33%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
-                <div class="rounded-social-buttons">
                 </div>
-                <div style="float: left;">        
+                <div class="rounded-social-buttons" style="float: left;">        
                     {%- if site.email -%}
                     <a title="{{ _locale_string_email }}"
                         class="social-button email" itemprop="email" 
