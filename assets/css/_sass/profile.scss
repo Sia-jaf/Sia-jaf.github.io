@@ -25,9 +25,10 @@
 */
 .profile-container {
   display: inline-block;
-  width: 33.33%;
+  width: 40%;
   /* grid-template-rows: 70% 30%; */
   border: 2px solid black;
+  align-items: center;
   /* float: left; */
 }
 
