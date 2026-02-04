@@ -7,10 +7,10 @@ layout: default
             <span class="profile-container">
                 <span>
                     <img class="profile {{ page.profile.align }}" width="90%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
-                </span>
-                <div class="rounded-social-buttons">
+                <br>
+                <span class="rounded-social-buttons">
                     {% include social-footer.html %}
-                </div>
+                </span>
             </span>
     {% endif %}
 {% endif %}<!--
