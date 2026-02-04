@@ -30,15 +30,16 @@
   border: 2px solid black;
   align-items: center;
   /* float: left; */
+  margin: 1rem;
 }
 
 .profile {
     border-style: solid;
     border-color: $light-gray;
-    margin-left: 1rem;
+    /* margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    border-radius: 6px;
+    border-radius: 6px; */
     border-radius: 50%;
 }
 

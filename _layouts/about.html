@@ -4,14 +4,14 @@ layout: default
 
 {% if page.profile %}
     {% if page.profile.image %}
-            <div class="profile-container">
-                <div>
+            <span class="profile-container">
+                <span>
                     <img class="profile {{ page.profile.align }}" width="90%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
-                </div>
+                </span>
                 <div class="rounded-social-buttons">
                     {% include social-footer.html %}
                 </div>
-            </div>
+            </span>
     {% endif %}
 {% endif %}<!--
 -->{{ content }}
