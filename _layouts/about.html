@@ -6,12 +6,12 @@ layout: default
     {% if page.profile.image %}
             <div class="profile-container">
                 <div>
-                    <img class="profile {{ page.profile.align }}" width="80%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
+                    <img class="profile {{ page.profile.align }}" width="90%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
                 </div>
                 <div class="rounded-social-buttons">
                     {% include social-footer.html %}
                 </div>
             </div>
     {% endif %}
-{% endif %}
-{{ content }}
+{% endif %}<!--
+-->{{ content }}
