@@ -6,6 +6,8 @@ profile:
   image: profile_Feb25.JPG
 published: true
 ---
+space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the folder. The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the
+
 I am a mathematician interested in data science and applications of abstract math in real world problems. I recieved my phd from university of Oregon in July 2025. I specialize in low dimensional topology, which means I worked with knots and links and modern tools to study such subjects. 
 ## Here is a test
 and more test
