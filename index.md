@@ -12,7 +12,7 @@ I am a mathematician interested in data science and applications of abstract mat
 ## Here is a test
 and more test
 
-<p> {% include social-footer.html %} </p>
+<p> Something before the social icons {% include social-footer.html %} </p>
 
 Then we can see what we can do about the icons. I think the best way to handle it is to add caption to the image.
 
