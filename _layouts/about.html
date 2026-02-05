@@ -4,14 +4,14 @@ layout: default
 
 {% if page.profile %}
     {% if page.profile.image %}
-            <span class="profile-container">
+            <span class="profile-container {{ page.profile.align }}">
                 <span>
-                    <img class="profile {{ page.profile.align }}" width="90%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
+                    <img class="profile" width="100%" src="{{ page.profile.image | prepend: '/assets/images/' | relative_url }}">
                 </span>
                 <br>
-                <span class="rounded-social-buttons">
-                    {% include social-footer.html %}
-                </span>
+                Contact me by:
+                <br>
+                {% include social-footer.html %}
             </span>
     {% endif %}
 {% endif %}<!--
