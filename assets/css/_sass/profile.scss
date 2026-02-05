@@ -30,10 +30,12 @@
   border: 2px solid black;
   align-items: center;
   /* float: left; */
-  margin: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 1.5rem;
+  padding: 5px;
 }
 
 .profile {
+    width: 90%;
     border-style: solid;
     border-color: $light-gray;
     /* margin-left: 1rem;
