@@ -9,8 +9,8 @@ published: true
 
 I am a mathematician interested in data science and applications of abstract math in real world problems. I recieved my phd from university of Oregon in July 2025 under supervision of Prof. Robert Lipshitz. I specialize in low dimensional topology, which means I worked with knots and links and modern tools to study such subjects. 
 
-### check out my [blogs](/_posts/) 
-- [jekyll](/_posts/2016-01-01-jekyll.md)
+### check out my  <a href="{{site.baseurl}}/blog/">Blog</a> 
+- [jekyll](/posts/2016-01-01-jekyll.md)
 - [sherlock](/_posts/2017-10-03-sherlock.md)
 - ...
 
